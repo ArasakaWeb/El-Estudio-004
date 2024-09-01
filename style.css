@@ -1,0 +1,170 @@
+* {
+    margin: auto;
+    max-width: 32rem;
+}
+
+/* .ubuntu-bold-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+ */
+header {
+    background-color: white;
+    display: block;
+    max-width: 100vh;
+    padding: 1rem;
+    box-shadow: 0px, 2px, 4px
+}
+
+#Titulo img {
+    width: 100%;
+}
+
+
+body {
+    background-color: yellow;
+    background-color: white;
+
+}
+
+.bar-nav {
+    max-width: 100vh;
+    font-family: 'Ubuntu';
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.bar-nav li {
+    margin: 1rem;
+}
+
+.bar-nav a {
+    text-decoration: none;
+
+}
+
+.bar-nav a:active {
+    text-decoration: none;
+}
+
+
+
+
+
+/* Cuerpo */
+
+
+
+
+
+.insta0 {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.main1 {
+    background-image: url;
+}
+
+.main1 {
+    padding-top: 4rem;
+    font-family: 'Ubuntu';
+    text-align: center;
+}
+
+.main1>h3 {
+    font-family: 'Ubuntu';
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+.insta1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Academia>h1 {
+    color: white;
+    font-family: 'Ubuntu';
+    text-align: center;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8);
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+.Academia {
+    min-height: 70vh;
+    background-image: url(img/Back1.jpeg);
+    background-position: center;
+}
+
+.Academia>h3 {
+    color: white;
+    font-family: 'Ubuntu';
+    text-align: center;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8);
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+.Academia>a img {
+    padding-top: 20rem;
+    width: 20%;
+    float: inline-start
+}
+
+.galb {
+    display: block;
+}
+
+.galb>h1 {
+    color: black;
+    font-family: 'Ubuntu';
+    text-align: center;
+    text-shadow: 0px 35px 20px rgba(0, 0, 0, 0.3);
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+}
+
+.galeria {
+    background-image: url(img/yellow-logo.JPG);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-repeat: repeat;
+    padding-top: 1rem;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    overflow-x: auto;
+}
+
+.galeria .instagram-media {
+    padding-left: 1rem;
+}
+
+/* Footer */
+
+
+
+
+footer {
+    background-color: white;
+    display: block;
+    max-width: 100vh;
+    padding: 1rem;
+    box-shadow: 0px, 2px, 4px
+}
+
+address>h3 {
+    font-family: "Ubuntu";
+}
+
+address>a {
+    font-family: "Ubuntu";
+}
